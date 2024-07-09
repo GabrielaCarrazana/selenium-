@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Behave",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/features",
+            "console": "integratedTerminal",
+            "args": ["-f", "plain", "-o", "reports/behave-report.txt", "${file}"],
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "envFile": "${workspaceFolder}/.env",
+            "stopOnEntry": false,
+            "justMyCode": false
+        }
+    ]
+}
